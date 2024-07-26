@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e24ee76d.css",
-    "main.js": "/static/js/main.ddcad98f.js",
+    "main.css": "/static/css/main.23db9b0a.css",
+    "main.js": "/static/js/main.de58c454.js",
     "static/media/apple-watch.png": "/static/media/apple-watch.089fd2f31df497f0d04f.png",
     "static/media/iphone-11-red.png": "/static/media/iphone-11-red.7270be0f24bd4da66768.png",
     "static/media/iphone-11-black.png": "/static/media/iphone-11-black.2266780cbfd2bc4baf98.png",
@@ -15,11 +15,11 @@
     "static/media/headphones.png": "/static/media/headphones.02a542923b48eca174b5.png",
     "static/media/macbook.png": "/static/media/macbook.4c7bfd47f7814f1462d4.png",
     "index.html": "/index.html",
-    "main.e24ee76d.css.map": "/static/css/main.e24ee76d.css.map",
-    "main.ddcad98f.js.map": "/static/js/main.ddcad98f.js.map"
+    "main.23db9b0a.css.map": "/static/css/main.23db9b0a.css.map",
+    "main.de58c454.js.map": "/static/js/main.de58c454.js.map"
   },
   "entrypoints": [
-    "static/css/main.e24ee76d.css",
-    "static/js/main.ddcad98f.js"
+    "static/css/main.23db9b0a.css",
+    "static/js/main.de58c454.js"
   ]
 }
