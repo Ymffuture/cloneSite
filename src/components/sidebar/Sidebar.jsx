@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom';
 import './sidebar.scss';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
-import { useEffect } from 'react';
+
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
