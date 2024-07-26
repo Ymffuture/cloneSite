@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e24ee76d.css",
+    "main.js": "/static/js/main.ddcad98f.js",
+    "static/media/apple-watch.png": "/static/media/apple-watch.089fd2f31df497f0d04f.png",
+    "static/media/iphone-11-red.png": "/static/media/iphone-11-red.7270be0f24bd4da66768.png",
+    "static/media/iphone-11-black.png": "/static/media/iphone-11-black.2266780cbfd2bc4baf98.png",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/dell-xps-13-white.png": "/static/media/dell-xps-13-white.b76e009a0fc1ca670981.png",
+    "static/media/samsung-note21.png": "/static/media/samsung-note21.8645728de095d85137a8.png",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/iphone-11-green.png": "/static/media/iphone-11-green.bf50c9e9bf00e816bed5.png",
+    "static/media/iphone-11-white.png": "/static/media/iphone-11-white.271d1032f4ddba3ae0cc.png",
+    "static/media/iphone-12-pro-blue.png": "/static/media/iphone-12-pro-blue.288b1a4be2ee3887d8d7.png",
+    "static/media/headphones.png": "/static/media/headphones.02a542923b48eca174b5.png",
+    "static/media/macbook.png": "/static/media/macbook.4c7bfd47f7814f1462d4.png",
+    "index.html": "/index.html",
+    "main.e24ee76d.css.map": "/static/css/main.e24ee76d.css.map",
+    "main.ddcad98f.js.map": "/static/js/main.ddcad98f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e24ee76d.css",
+    "static/js/main.ddcad98f.js"
+  ]
+}
