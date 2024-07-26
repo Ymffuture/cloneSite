@@ -7,12 +7,9 @@ import { Link } from 'react-router-dom';
 
 const Sidebag = (props) => {
   const products = useSelector((state) => state.cart.products);
-  const itemsTotal = products.reduce((total, item) => total + item.price * item.quantity, 0);
-
   return (
     
     <div className=' class-a mt-2'>
-
       <h2 className='text-center txt-2 txt-3'>Bag</h2>
       <div className='row cart-items'>
         {products.map((product, index) => (
@@ -20,7 +17,6 @@ const Sidebag = (props) => {
             <img src={product.image} alt={product.name} className="cart-item-image" height='70' width='70' />
           </div>
         ))}
-      
       </div>
       <button onClick={props.event} className=' btnBag p-md-3 position-relative display-none'><Link to={props.link} className='view-bag-button'><i class="bi bi-bag-fill"></i>{props.caption}</Link></button>
     </div>
