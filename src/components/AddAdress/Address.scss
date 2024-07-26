@@ -1,0 +1,45 @@
+$background-color: #ffff;
+$border-radius-small: 10px;
+$border-radius-large: 11px;
+$margin-bottom: 20px;
+$border-color: #1A1F16;
+$padding: 4px 14px;
+$margin: 20px;
+
+.address-container,
+.no-address-container {
+    background: $background-color;
+    border-radius: $border-radius-small;
+    margin-bottom: $margin-bottom;
+}
+
+.btn-address,
+.btn-no-address {
+    border: 1px solid $border-color;
+    border-radius: $border-radius-large;
+    padding: $padding;
+    background-color: transparent;
+}
+
+.btn-address {
+    position: relative;
+    top: 35%;
+}
+
+.btn-no-address {
+    margin: $margin;
+}
+
+.address-content,
+.no-address-content {
+    margin: $margin;
+}
+
+h2 {
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+.no-address-container , .payment-container{
+    width: 100%;
+    display: flex;
+}
