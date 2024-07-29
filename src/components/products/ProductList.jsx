@@ -5,7 +5,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import '../../App.css';
 import './ProductList.css';
 import { useDispatch } from 'react-redux';
-import { addToCart } from '../../redux/actions/actions';
+import { addToCart } from '../../jsApp/redux/Actions';
 import Products from './Lists';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';

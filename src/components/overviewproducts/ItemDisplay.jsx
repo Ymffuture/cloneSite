@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import Rating from '../../components/Rating'
 import { useDispatch } from 'react-redux';
-import { addToCart } from '../../redux/actions/actions';
+import { addToCart } from '../../jsApp/redux/Actions';
 import './ItemDisplay.scss'
 
 

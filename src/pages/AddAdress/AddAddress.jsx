@@ -4,7 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { addAddress } from "../../redux/actions/actions";
+import { addAddress } from "../../jsApp/redux/Actions";
 
 const AddAddress = () => {
     const dispatch = useDispatch();

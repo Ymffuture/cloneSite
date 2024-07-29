@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import Rating from '../components/Rating';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../components/checkbag/CheckBagItems.scss';
-import { increaseQuantity, decreaseQuantity } from '../redux/actions/actions';
+import { increaseQuantity, decreaseQuantity } from '../jsApp/redux/Actions';
 
 const CheckBagItems = () => {
     const cartItems = useSelector(state => state.cart.products);
