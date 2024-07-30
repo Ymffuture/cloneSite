@@ -1,48 +1,31 @@
-$background-color: #ffff;
-$border-radius-small: 10px;
-$border-radius-large: 11px;
-$margin-bottom: 20px;
-$border-color: #1A1F16;
-$padding: 4px 14px;
-$margin: 20px;
-$btn-increase-color: #02D693;
-$btn-decrease-color: #e5252c;
-$relative-position-top-40: 40%;
-$relative-position-top-58: 58%;
-$relative-position-top-72: 72%;
-$left-10: 10%;
-$left-40: 40%;
-$right-10: 10%;
-$right-15: 15%;
-$margin-top-30: 30px;
-
+/* Styles for address containers */
 .address-container,
 .no-address-container {
-    background: $background-color;
-    border-radius: $border-radius-small;
-    margin-bottom: $margin-bottom;
+    background: #ffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .btn-address,
 .btn-no-address {
-    border: 1px solid $border-color;
-    border-radius: $border-radius-large;
-    padding: $padding;
+    border: 1px solid #1A1F16;
+    border-radius: 11px;
+    padding: 4px 14px;
     background-color: transparent;
 }
 
 .btn-address {
     position: relative;
-    top: $relative-position-top-40;
+    top: 40%;
 }
 
 .btn-no-address {
-    margin: $margin;
+    margin: 20px;
 }
 
 .address-content,
 .no-address-content {
-    margin: $margin;
+    margin: 20px;
 }
 
 h2 {
@@ -51,52 +34,63 @@ h2 {
 }
 
 .row {
-    margin-top: $margin-top-30;
+    margin-top: 30px;
 }
 
-.btn-increase,
-.btn-increase:hover {
+.btn-inc,
+.btn-incr:hover {
     background-color: transparent;
-    color: $btn-increase-color;
+    color: #02D693;
     border: none;
 }
 
-.btn-increase {
+.btn-inc {
     position: relative;
-    top: $relative-position-top-40;
-    left: $left-10;
+    top: 42%;
+    left: 70%;
 }
 
-.btn-decrease, .btn-decrease:hover { 
+.btn-dec,
+.btn-dec:hover {
     background-color: transparent;
-    color: $btn-decrease-color;
+    color: #e5252c;
     border: none;
 }
 
-.btn-decrease {
+.btn-dec {
     position: relative;
-    top: $relative-position-top-72;
-    right: $right-15;
+    top: 70%;
+    left: 15%;
 }
 
 .mx-2 {
     position: relative;
-    top: $relative-position-top-58;
-    left: $left-40;
+    top: 58%;
+    left: 40%;
 }
 
+/* Total bag styles */
 .total-bag {
     position: absolute;
-    right: $right-10;
-    top: $relative-position-top-40;
+    right: 10%;
+    top: 40%;
 }
 
-.top-area, .img-area {  
+/* Layout styles */
+.top-area,
+.img-area {
     display: flex;
-}   
+}
 
+/* Image gallery styles */
 .img-gallery {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+/* Container 2 styles */
+.container-2 {
+    display: grid;
+    grid-gap: 10px;
+    width: 120%;
+}

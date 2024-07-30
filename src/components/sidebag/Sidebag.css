@@ -2,9 +2,13 @@
 .cart-item-image {
     background-color: #ffffff;
     border-radius: 12px;
-    margin: 4px;
+    margin: 8px;
   }
-  
+  cart-item-image-2{
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin: 8px;
+  }
   /* Text styles */
   .txt-2 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -36,7 +40,8 @@
   
   /* Button container styles */
   .btnBag, 
-  .btnBag-2 {
+  .btnBag-2, 
+  .btnBag3 {
     border: none;
     position: relative;
     z-index: 1;
@@ -44,6 +49,10 @@
   
   .btnBag {
     left: -40px;
+  }
+
+  .btnBag3 {
+    left: -20px;
   }
   
   .btnBag-2 {
@@ -72,4 +81,9 @@
     position: relative;
     bottom: 100px;
   }
-  
+  .class-c {
+    left: 150px;
+    /* background: #1A1F16; */
+    position: relative;
+    bottom: 100px;
+  }

@@ -43,7 +43,7 @@ const ProductList = () => {
                         type="text"
                         id="search"
                         className="form-control search-box"
-                        placeholder="Apple Watch, Samsung 21, Macbook Pro"
+                        placeholder="Apple Watch, Samsung 21, Macbook Pro, ..."
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
                         

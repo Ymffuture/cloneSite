@@ -17,10 +17,8 @@ const CheckBagItems = () => {
         dispatch(decreaseQuantity(productId));
     };
 
-    // const itemsTotal = cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
-
     return (
-        <div className="container">
+        <div className="container-2">
         <h1>Check you Bag Items</h1>
         <div className='line-2'></div>
             {cartItems.length === 0 ? (
@@ -39,16 +37,14 @@ const CheckBagItems = () => {
                             <p>${products.price} <small> x {products.quantity}</small></p>
                         </div>
                         <div className="col-md-3 quantity-controls" style={{background: '#ffff', borderTopRightRadius: '30px', borderBottomRightRadius: '30px'}}>
-                            <button className="btn btn-decrease" onClick={() => handleDecrease(products.id)}>-</button>
+                            <button className="btn-dec" onClick={() => handleDecrease(products.id)}>-</button>
                             <p className="mx-2">{products.quantity}</p>
-                            <button className="btn btn-increase" onClick={() => handleIncrease(products.id)}>+</button>
+                            <button className="btn-inc" onClick={() => handleIncrease(products.id)}>+</button>
                         </div>
                     </div>
                 ))
             )}
-            {/* <div className="total-bag">
-                <p>Total Bag: {itemsTotal}</p>
-            </div> */}
+           
         </div>
         
     );
