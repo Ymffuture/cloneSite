@@ -26,6 +26,13 @@
   
     height: 130vh;
   }
+
+
+  @media (max-width:360px) {
+  
+    height: 150vh;
+  }
+
   &.open {
     width: 130px; 
   }
