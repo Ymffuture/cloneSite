@@ -1,6 +1,4 @@
-import { ActionTypes } from "./actions";
-
-// Initial State
+import { ActionTypes } from "./Actions";
 const initialCartState = {
   products: []
 };
@@ -14,7 +12,6 @@ const initialAddressState = {
   address: []
 };
 
-// Cart Reducer
 export const cartReducer = (state = initialCartState, action) => {
   switch (action.type) {
   
@@ -58,7 +55,6 @@ export const cartReducer = (state = initialCartState, action) => {
   }
 };
 
-// Payment Reducer
 export const cardReducer = (state = initialCardState, action) => {
   switch (action.type) {
     case ActionTypes.ADD_CARD:
@@ -71,7 +67,6 @@ export const cardReducer = (state = initialCardState, action) => {
   }
 };
 
-// Address Reducer
 export const addressReducer = (state = initialAddressState, action) => {
   switch (action.type) {
     case ActionTypes.ADD_ADDRESS:

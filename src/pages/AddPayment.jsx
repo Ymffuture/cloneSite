@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCreditCard } from "@fortawesome/free-solid-svg-icons";
-import { addCard } from '../redux/actions/actions';
+import { addCard } from '../jsApp/redux/Actions';
 
 
 const AddPayment = () => {

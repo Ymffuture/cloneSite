@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { increaseQuantity, decreaseQuantity } from '../../redux/actions/actions';
+import { increaseQuantity, decreaseQuantity } from '../../jsApp/redux/Actions';
 import Rating from '../Rating';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './CheckBagItems.scss';

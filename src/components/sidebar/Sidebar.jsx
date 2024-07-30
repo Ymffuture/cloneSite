@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom';
 import './sidebar.scss';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
-
+import logo from '../../assets/logo.png'
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
@@ -29,7 +29,7 @@ const Sidebar = () => {
   return (
     <div id='sidenav' className={`sidenav ${isOpen ? 'open' : 'closed'}`}>
     <Link to='/' className='brand'>
-    <img src='https://media.discordapp.net/attachments/1260921373090386020/1262906965294579722/TypeFlat.png?ex=6698f604&is=6697a484&hm=14461e80770ef3e6b1ac2eff0b494653c2d614f1d600b97beccd8c7b2bac6b99&' alt=''/>
+    <img src={logo} alt=''/>
   </Link>
       <button className="toggle-btn" onClick={toggleSidebar}>
         <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />

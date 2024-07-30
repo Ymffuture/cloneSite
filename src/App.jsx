@@ -7,7 +7,7 @@ import ItemView from "./pages/ItemView";
 import { Provider } from "react-redux";
 import AddPayment from "./pages/AddPayment";
 import "./App.css";
-import store from "./redux/reducers/store";
+import store from "./jsApp/redux/Store";
 
 
 function App() {
