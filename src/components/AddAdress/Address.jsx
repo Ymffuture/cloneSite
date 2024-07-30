@@ -12,7 +12,8 @@ const Address = () => {
         <div className='no-address-container'>
             <div className='no-address-content'>
                 <h2 className='fw'>SHIPPING ADDRESS</h2> 
-                <p>No address added yet.</p>
+                <p>You haven't added an address yet</p>
+
             </div>
             <Link to={'/add-address'}><button className='btn-no-address'>Add Address</button></Link>
         </div>

@@ -22,7 +22,8 @@ const CheckBagItems = () => {
         <h1>Check you Bag Items</h1>
         <div className='line-2'></div>
             {cartItems.length === 0 ? (
-                <p>Your cart is empty</p>
+              <p>Add items to your cart</p>
+
             ) : (
                 cartItems.map(products => (
                     <div key={products.id} className="row mb-4">

@@ -72,7 +72,8 @@ const ProductList = () => {
                 ))
                 ) : (
                     <div className="col-12">
-                        <p>No results</p>
+                      <p>No items found</p>
+
                     </div>
                 )}
             </div>
